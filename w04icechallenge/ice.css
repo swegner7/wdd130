@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    background-color: #faa7c9;
+
+}
+
+h1 {
+    
+    font-family: "Open Sans";
+    /* should set font to roboto */
+    color: white; 
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+h1:hover {
+    color: black;
+}  
+.points{
+    text-align: center;
+}
+.list{
+    display: inline-block;
+    text-align: left;
+    line-height: 180%;
+}
+ol {
+    font-family: "Open Sans";
+    font-size: large;
+    color: black;
+    font-style: bold;
+    font-weight: bold;
+}
+.edu {
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 250px;
+    padding-top: 4px;
+}
+
+.pn {
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: large;
+    color: white;
+    
+}
+
+.quote {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    padding: 5px;
+    
+}
+
+.end {
+    font-family: "Open Sans";
+    color: black;
+    text-align: center;
+    font-size: smaller;
+}
