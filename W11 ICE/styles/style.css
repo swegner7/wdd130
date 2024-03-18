@@ -1,0 +1,28 @@
+body {
+    background-color: #eeefee;
+}
+
+#box {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    width: 500px;
+}
+
+#userinfo {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 30px 10px;
+}
+
+#userinfo img{
+    max-height: 100px;
+}
+
+#post img{
+    max-width: 100%;
+}
+
+#interaction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
