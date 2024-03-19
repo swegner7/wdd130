@@ -3,19 +3,36 @@ body {
 }
 
 #box {
+    margin: auto;
     background-color: white;
     display: grid;
     grid-template-rows: 50px 1fr 50px;
     width: 500px;
+    border-radius: 5px;
 }
 
 #userinfo {
     display: grid;
-    grid-template-columns: 30px 1fr 1fr 30px 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 #userinfo img{
-    max-height: 100px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+#userinfo h3 {
+    grid-column: 2/3;
+}
+
+#userinfo p {
+    grid-column: 4/5;
+}
+
+#userinfo i {
+    grid-column: 5/6;
+    
 }
 
 #post img{
@@ -25,4 +42,8 @@ body {
 #interaction {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#likes {
+    grid-column: 6/7;
 }
