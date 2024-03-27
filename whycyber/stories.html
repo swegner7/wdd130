@@ -8,23 +8,52 @@
 </head>
 <body>
     <header>
-        <a href="stories.html">
-            <h1>Horror Stories</h1>
-        </a>
-        <a href="index.html">
-            <img src="images/logo.jpg" alt="site logo">
-        </a>
-        <a href="whatdo.html">
-            <h1>What Can I do?</h1>
-        </a>
+        <nav>
+            <a href="stories.html">
+                <h1>Horror Stories</h1>
+            </a>
+            <a href="index.html">
+                <img id="logo" src="images/logo.jpg" alt="site logo">
+            </a>
+            <a href="whatdo.html">
+                <h1>Protect Yourself</h1>
+            </a>
+        </nav>
     </header>
     <main>
-        <img src="images/hacked.jpg" alt="you've been hacked image">
-        <img src="images/hacker.jpg" alt="hacker image">
-        <h2>INL Cyber Attack</h2>
-        <h2>Facebook and Google Cyber Attack</h2>
-        <p>In November 2023, the Idaho National Laboratory (INL), a federal research center, fell victim to a significant data breach. During this cyberattack, the lab’s digital network was targeted, specifically affecting servers supporting the Human Resources department that utilize Oracle software. As a result, employee information—including addresses, Social Security numbers, and bank account details—was compromised. The lab promptly took action to safeguard employee data and has been collaborating with federal law enforcement agencies, including the FBI and the Department of Homeland Security’s Cyber Security and Infrastructure Security Agency, to investigate the extent of the breach. A hacker group called SiegedSec has claimed responsibility for the attack, although INL has not officially confirmed their involvement. </p>
-        <p>In 2013, Evaldas Rimasauskas, a citizen of Lithuania, orchestrated a daring social engineering attack that ensnared two tech giants: Google and Facebook. His ingenious scheme relied on a combination of forgery and phishing tactics. Rimasauskas established a fake company named “Quanta Computer” in Latvia. He meticulously opened and maintained bank accounts in the company’s name both in Latvia and Cyprus. To lend authenticity, he created email accounts that appeared to belong to legitimate Quanta Computer employees. Armed with these deceptive email addresses, Rimasauskas sent fraudulent invoices to Google and Facebook. He posed as Quanta Computer, a Taiwan-based computer hardware manufacturer that had substantial dealings with major tech players. The invoices requested payments worth tens of millions of dollars. To evade scrutiny, Rimasauskas went beyond mere emails. He crafted contracts and letters, complete with forged signatures of company executives and even false embossed corporate seals. His attention to detail was remarkable. The scam yielded $98 million from Facebook in 2015 and $23 million from Google. However, both companies managed to recover most of the funds after the scheme was exposed and Rimasauskas was arrested. He pleaded guilty to wire fraud charges and now faces a maximum sentence of 30 years in prison. This audacious attack exemplifies the evolving threat of business email compromise, where scammers exploit trust to appear as legitimate business partners and manipulate payments. Large corporations remain prime targets for such phishing scams, emphasizing the need for robust cybersecurity measures.</p>
+        <h1>Stories that may have affected you</h1>
+        <div id="storiesgrid">
+            <div class="timeline">
+                <div class="container right">
+                    <div class="content">
+                        <img id="storiesimage1" src="images/hacked.jpg" alt="you've been hacked image">
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h2>Facebook and Google Tricked With Phishing</h2>
+                        <p>In <b>2013</b>, Evaldas Rimasauskas, a citizen of Lithuania, orchestrated a daring social engineering attack that ensnared two tech giants: Google and Facebook. His ingenious scheme relied on a <b>combination of forgery and phishing</b> tactics. Rimasauskas established a fake company named “Quanta Computer” in Latvia. He meticulously opened and maintained bank accounts in the company’s name both in Latvia and Cyprus. To lend authenticity, he created email accounts that appeared to belong to legitimate Quanta Computer employees. Armed with these deceptive email addresses, Rimasauskas <b>sent fraudulent invoices</b> to Google and Facebook. He posed as Quanta Computer, a Taiwan-based computer hardware manufacturer that had substantial dealings with major tech players. The invoices requested payments worth tens of millions of dollars. To evade scrutiny, Rimasauskas went beyond mere emails. He crafted contracts and letters, complete with forged signatures of company executives and even false embossed corporate seals. His attention to detail was remarkable. The scam yielded <b>$98 million from Facebook</b> in 2015 and <b>$23 million from Google</b>. However, both companies managed to recover most of the funds after the scheme was exposed and Rimasauskas was arrested. He pleaded guilty to wire fraud charges and now faces a maximum sentence of 30 years in prison. This audacious attack exemplifies the evolving threat of business email compromise, where <b>scammers exploit trust</b> to appear as legitimate business partners and manipulate payments. Large corporations remain prime targets for such phishing scams, emphasizing the need for robust cybersecurity measures.</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <img id="storiesimage2" src="images/hacker.jpg" alt="hacker image">
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h2>Marriot Hotel Customer Data Leaked</h2>
+                        <p>In <b>2018</b>, Marriott International announced a significant data breach involving its guest reservation system. The breach, which <b>began in 2014, was discovered in September 2018</b> when an internal security tool flagged suspicious activity. The attackers had gained access to the system and exfiltrated hundreds of millions of customer records, <b>including credit card and passport numbers</b>. The breach was traced back to the Starwood network, which Marriott had acquired in 2016. The compromised system had been inherited from Starwood and was still in use at the time of the breach. <b>The incident exposed the personal information of up to 500 million guests</b>, making it one of the largest cyber incidents ever recorded.</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2>INL Employee Information Leaked</h2>
+                        <p>In November <b>2023</b>, the Idaho National Laboratory (INL), a federal research center, fell victim to a significant data breach. During this cyberattack, the lab’s digital network was targeted, specifically affecting servers supporting the Human Resources department that utilize Oracle software. As a result, <b>employee information—including addresses, Social Security numbers, and bank account details</b>—was compromised. The lab promptly took action to safeguard employee data and has been collaborating with federal law enforcement agencies, including the FBI and the Department of Homeland Security’s Cyber Security and Infrastructure Security Agency, to investigate the extent of the breach. A hacker group called SiegedSec has claimed responsibility for the attack, although INL has not officially confirmed their involvement. INL did tell Maine AG that there were <b>over 45,000 people affected</b> by this attack.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>WhyCyber 2024 - Spencer Wegner</p>
