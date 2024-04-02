@@ -9,38 +9,80 @@ body {
 
 header {
     font-family: Anta, sans-serif;
+    background-color: #79a399;
 }
 
 #logo {
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 50%;
     padding: 35px;
 }
 
+#companyname {
+    text-align: right;
+    font-size: xx-large;
+    grid-column: 3/4;
+}
+
+#navlogo {
+    grid-column: 4/5;
+}
+
+#navstories :hover {
+    color: #fefef4;
+}
+
+#navprotect :hover {
+    color: #fefef4;
+}
+
 nav {
-    display: flex;
-    justify-content: space-around;
+    color: #00101a;
+    display: grid;
+    grid-template-columns: 30% 1fr 30%;
     align-items: center;
     border-radius: 20px;
+    padding-left: 20px;
 }
 
 nav a{
     text-align: center;
-    background-color: #00101a;
-    color: #4cca80;
+    color: #00101a;
     text-decoration: none;
     border-radius: 20px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 nav a :hover {
-    background-color: #4cca80;
-    color: #00101a;
+    color: #fefef4;
     border-radius: 10px;
-    padding-block: 10px;
+    /* padding-block: 10px; */
 }
 
-main h1, h4 {
+#protectbox {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin: 50px;
+    justify-items: center;
+}
+
+#protectbox img{
+    box-shadow: 0px 0px 10px #4cca80;
+    border-radius: 20px;
+}
+
+.protectimg {
+    max-width: 100%;
+}
+
+#remember {
+    grid-column: 1/3;
+}
+
+main h1, h2 {
     font-weight: bolder;
     text-align: center;
 }
@@ -51,7 +93,6 @@ main h1, h4 {
     row-gap: 50px;
     column-gap: 50px;
     margin: 50px;
-    
 }
 
 #box img {
